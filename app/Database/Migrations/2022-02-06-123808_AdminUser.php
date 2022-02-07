@@ -15,30 +15,32 @@ class AdminUser extends Migration
                 'auto_increment' => true,
             ],
             'user_type' => array(
-                'type' => 'INT',
-                'null' => false,
-                'unique' => true
+                'type'  => 'INT',
+                'null'  => false,
+                'unique'=> true
             ),
             'first_name' => array(
-                'type' => 'STRING',
-                'null' => TRUE,
+                'type' => 'VARCHAR',
+                'constraint' => '25',
+                'null' => true,
             ),
             'last_name' => array(
-                'type' => 'STRING',
-                'null' => TRUE,
+                'type' => 'VARCHAR',
+                'constraint' => '25',
+                'null' => true,
             ),
             'username' => array(
                 'type' => 'VARCHAR',
                 'constraint' => '100',
                 'null' => false,
-                'unique' => true
+                'unique' => true,
             ),
-            'email' => [
+            'email' => array(
                 'type' => 'VARCHAR',
                 'constraint' => '100',
                 'null' => false,
-                'unique' => true
-            ],
+                'unique' => true,
+            ),
             'password' => array(
                 'type' => 'VARCHAR',
 				'constraint' => '255'
@@ -61,10 +63,10 @@ class AdminUser extends Migration
 
             'created_at datetime default current_timestamp',
             'updated_at datetime default current_timestamp on update current_timestamp'
-        ));        
+        ));  
 
-        $this->forge->addKey('id', TRUE);
-        $this->forge->createTable('admin_users');
+        $this->forge->addPrimaryKey('id', true);
+        $this->forge->createTable('admin_users', true);
     }
 
     public function down()
