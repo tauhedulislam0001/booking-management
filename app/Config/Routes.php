@@ -28,10 +28,27 @@ $routes->setAutoRoute(true);
  * Route Definitions
  * --------------------------------------------------------------------
  */
+/*** Home Controller ***/
 
-// We get a performance increase by specifying the default
-// route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+
+/*** Signup Controller ***/
+
+$routes->get('/signup', 'SignupController::index');
+$routes->post('/signup/store', 'SignupController::store');
+
+/*** Signin Controller ***/
+
+$routes->get('/signin', 'SigninController::index');
+$routes->post('/signin/loginAuth', 'SigninController::loginAuth');
+
+/*** Signin Controller ***/
+
+$routes->get('/profile', 'ProfileController::index',['filter' => 'authGuard']);
+
+/*** Admin Dashboard Controller ***/
+
+$routes->get('/admin/dashboard', 'AdminDashboardController::index',['filter' => 'authGuard']);
 
 /*
  * --------------------------------------------------------------------
