@@ -1,7 +1,6 @@
  <!--**********************************
         Scripts
     ***********************************-->
-    {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> --}}
     <!-- custom js -->
     <script src="<?php echo base_url(); ?>/assets/backend/js/custom.min.js"></script>
     <!-- Required vendors -->
@@ -15,8 +14,8 @@
 	<script src="<?php echo base_url(); ?>/assets/backend/vendor/owl-carousel/owl.carousel.js"></script>
 
     <!-- Datatable -->
-    <script src="{{ asset("assets/backend/vendor/datatables/js/jquery.dataTables.min.js") }}"></script>
-    <script src="{{ asset("assets/backend/js/plugins-init/datatables.init.js") }}"></script>
+    <script src="<?php echo base_url(); ?>assets/backend/vendor/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/backend/js/plugins-init/datatables.init.js"></script>
 
 	<!-- Chart piety plugin files -->
     <script src="<?php echo base_url(); ?>/assets/backend/vendor/peity/jquery.peity.min.js"></script>

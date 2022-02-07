@@ -1,6 +1,6 @@
 <!-- Favicon icon -->
 <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url(); ?>/assets/backend/images/favicon.png">
-<link rel="stylesheet" href="<?php echo base_url(); ?>assets/backend/vendor/chartist/css/chartist.min.css">
+<link rel="stylesheet" href="<?php echo base_url(); ?>/assets/backend/vendor/chartist/css/chartist.min.css">
 <link href="<?php echo base_url(); ?>/assets/backend/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
 <link href="<?php echo base_url(); ?>/assets/backend/vendor/owl-carousel/owl.carousel.css" rel="stylesheet">
 <link href="<?php echo base_url(); ?>/assets/backend/css/style.css" rel="stylesheet">
