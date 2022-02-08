@@ -32,6 +32,11 @@ $routes->setAutoRoute(true);
 
 $routes->get('/', 'Home::index');
 
+/*** Admin Controller ***/
+
+$routes->get('/admin/list', 'AdminController::index');
+$routes->get('/admin/create', 'AdminController::create');
+
 /*** Signup Controller ***/
 
 $routes->get('/signup', 'SignupController::index');
@@ -42,7 +47,7 @@ $routes->post('/signup/store', 'SignupController::store');
 $routes->get('/signin', 'SigninController::index');
 $routes->post('/signin/loginAuth', 'SigninController::loginAuth');
 
-/*** Signin Controller ***/
+/*** Profile Controller ***/
 
 $routes->get('/profile', 'ProfileController::index',['filter' => 'authGuard']);
 

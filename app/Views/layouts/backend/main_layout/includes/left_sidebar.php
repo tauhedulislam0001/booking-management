@@ -8,7 +8,7 @@
 
                     <!-- {{-- dashboard nav --}} -->
 
-                    <li><a href="{{ route('admin.dashboard') }}" class="ai-icon" aria-expanded="false">
+                    <li><a href="<?= base_url('/admin/dashboard'); ?>" class="ai-icon" aria-expanded="false">
                         <i class="flaticon-381-networking"></i>
                             <span class="nav-text">Dashboard</span>
                         </a>
@@ -31,7 +31,7 @@
                         </a>
 
                         <ul aria-expanded="false">
-                            <li><a href="{{ route('admin-user') }}">Admin</a></li>
+                            <li><a href="<?= base_url('/admin/list'); ?>">Admin</a></li>
                             <li><a href="{{ route('admin-user') }}">User</a></li>
                             <li><a href="{{ route('admin-user') }}">Driver</a></li>
                             <li><a href="{{ route('admin-user') }}">Customer</a></li>

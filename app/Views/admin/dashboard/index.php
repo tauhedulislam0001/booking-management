@@ -3,7 +3,7 @@
 Admin Dashboard
 <?= $this->endsection(); ?>
 <?= $this->section('page-name');?>
-dashboard
+Dashboard
 <?= $this->endsection();?>
 
 <?= $this->section('content');?>

@@ -25,10 +25,10 @@ class App extends BaseConfig
      */
 
     // for linux nginx server
-    public $baseURL = 'http://codeigniter-app.xyz/';
+    // public $baseURL = 'http://codeigniter-app.xyz/';
 
     // for windows apache server
-    // public $baseURL = 'http://localhost/booking-management/public/';
+    public $baseURL = 'http://localhost/booking-management/public/';
 
     /**
      * --------------------------------------------------------------------------

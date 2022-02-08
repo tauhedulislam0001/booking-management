@@ -4,7 +4,7 @@
     <!-- custom js -->
     <script src="<?php echo base_url(); ?>/assets/backend/js/custom.min.js"></script>
     <!-- Required vendors -->
-    <script data-cfasync="false" src="<?php echo base_url(); ?>/assets/backend/js/email-decode.min.js')}}"></script>
+    <script data-cfasync="false" src="<?php echo base_url(); ?>/assets/backend/js/email-decode.min.js"></script>
     <!-- Required vendors -->
     <script src="<?php echo base_url(); ?>/assets/backend/vendor/global/global.min.js"></script>
 	<script src="<?php echo base_url(); ?>/assets/backend/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
@@ -14,8 +14,8 @@
 	<script src="<?php echo base_url(); ?>/assets/backend/vendor/owl-carousel/owl.carousel.js"></script>
 
     <!-- Datatable -->
-    <script src="<?php echo base_url(); ?>assets/backend/vendor/datatables/js/jquery.dataTables.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/backend/js/plugins-init/datatables.init.js"></script>
+    <script src="<?php echo base_url(); ?>/assets/backend/vendor/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="<?php echo base_url(); ?>/assets/backend/js/plugins-init/datatables.init.js"></script>
 
 	<!-- Chart piety plugin files -->
     <script src="<?php echo base_url(); ?>/assets/backend/vendor/peity/jquery.peity.min.js"></script>
