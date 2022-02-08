@@ -18,7 +18,7 @@
 
                     <li><a href="{{ route('frontend') }}" target="_blank" class="ai-icon" aria-expanded="false">
                         <i class="flaticon-381-internet"></i>
-                            <span class="nav-text">Coaching Home</span>
+                            <span class="nav-text">Booking Home</span>
                         </a>
                     </li>
 
@@ -31,7 +31,10 @@
                         </a>
 
                         <ul aria-expanded="false">
-                            <li><a href="{{ route('admin-user') }}">All User</a></li>
+                            <li><a href="{{ route('admin-user') }}">Admin</a></li>
+                            <li><a href="{{ route('admin-user') }}">User</a></li>
+                            <li><a href="{{ route('admin-user') }}">Driver</a></li>
+                            <li><a href="{{ route('admin-user') }}">Customer</a></li>
                         </ul>
                     </li>
 
@@ -40,11 +43,24 @@
                     <li>
                         <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
                             <i class="flaticon-381-book"></i>
-                            <span class="nav-text">Manage Course</span>
+                            <span class="nav-text">Manage Route</span>
                         </a>
 
                         <ul aria-expanded="false">
-                            <li><a href="{{ route('course-category') }}">All Course</a></li>
+                            <li><a href="{{ route('course-category') }}">All Route</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- {{-- manage fare --}} -->
+
+                    <li>
+                        <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                            <i class="flaticon-381-notepad"></i>
+                            <span class="nav-text">Manage fare</span>
+                        </a>
+
+                        <ul aria-expanded="false">
+                            <li><a href="{{ route('hero-content') }}">single trip fare</a></li>
                         </ul>
                     </li>
 

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>kiso na</title>
+    <title><?= $this->renderSection('title'); ?></title>
 
      <?php include APPPATH.'Views/layouts/backend/main_layout/common/css.php'; ?>
 

@@ -1,6 +1,7 @@
 <!--**********************************
     Nav header start
 ***********************************-->
+
 <div class="nav-header">
     <a href="{{ route('admin.dashboard') }}" class="brand-logo">
         <img class="logo-abbr" src="<?php echo base_url(); ?>/assets/backend/images/logo.png" alt="">
@@ -14,6 +15,7 @@
         </div>
     </div>
 </div>
+
 <!--**********************************
     Nav header end
 ***********************************-->
