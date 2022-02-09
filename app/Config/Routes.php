@@ -36,6 +36,7 @@ $routes->get('/', 'Home::index');
 
 $routes->get('/admin/list', 'AdminController::index');
 $routes->get('/admin/create', 'AdminController::create');
+$routes->post('/admin/store', 'AdminController::store');
 
 /*** Signup Controller ***/
 

@@ -55,7 +55,7 @@ All Admin
                                     <tr>
                                         <td><?= $row['username']; ?></td>
                                         <td>
-                                            <?php if($row['user_type'] == 1): ?>
+                                            <?php if($row['user_type'] == 2): ?>
                                                 <span class="badge badge-info">Admin</span>
                                             <?php endif?>
                                         </td>
